@@ -38,7 +38,7 @@ Terminal 1
 
 ```sql
 BEGIN;
-UPDATE accounts SET balance = 1000+1 where id = 1;
+UPDATE accounts SET balance = 1000+2 where id = 1;
 ```
 
 Terminal 2
