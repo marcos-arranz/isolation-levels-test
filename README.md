@@ -58,7 +58,7 @@ Terminal 2
 
 ```sql
 COMMIT;
-SELECT balance from account where id = 1;
+SELECT balance from accounts where id = 1;
 ```
 
 Repeat with `BEGIN TRANSACTION ISOLATION LEVEL REPEATABLE READ`
